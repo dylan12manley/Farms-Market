@@ -26,3 +26,5 @@ eslint --init
 ? What format do you want your config file to be in? >JSON
 
 $ npm install --save styled-jsx
+
+npm install react-router-dom@4.0.0 --save
