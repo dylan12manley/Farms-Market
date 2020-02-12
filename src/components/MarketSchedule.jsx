@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel  from 'react-bootstrap/Carousel';
 // import '../App.css';
-import '../Carousel.css'
+import '../styles/Carousel.css'
 import beets from '../assets/images/beets-1378705_640.jpg';
 import pineapples from '../assets/images/pineapples-373769_640.jpg';
 import woman from '../assets/images/woman-981797_640.jpg';

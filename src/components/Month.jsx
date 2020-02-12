@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Selection from './Selection'
 import { Card, ListGroup, Accordion } from 'react-bootstrap';
-import '../Month.css'
+import '../styles/Month.css'
 
 function Month(props){
   return (
