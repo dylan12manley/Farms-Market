@@ -1,7 +1,7 @@
 import React from 'react';
-import Card  from 'react-bootstrap/Card';
+import Carousel  from 'react-bootstrap/Carousel';
 // import '../App.css';
-import '../styles/Schedule.css'
+import '../styles/Carousel.css'
 import beets from '../assets/images/beets-1378705_640.jpg';
 import pineapples from '../assets/images/pineapples-373769_640.jpg';
 import woman from '../assets/images/woman-981797_640.jpg';
@@ -9,6 +9,7 @@ import hipster from '../assets/images/market-4749215_640.jpg';
 import squash from '../assets/images/farmers-market-1213097_640.jpg';
 import spices from '../assets/images/spices-1626385_640.jpg';
 import watermelon from '../assets/images/watermelon-4783500_640.jpg';
+
 
 const marketSchedule = [
  {
@@ -55,25 +56,29 @@ const marketSchedule = [
  }
 ];
 
-function  MarketSchedule(){
+function  MarketScheduleHome(){
   return (
     <>
-    <h2 className="marketHeader">Market Schedy</h2>
-    <div id='scheduleBody'>
+    <div id='carouselBody'>
+    <Carousel>
     {marketSchedule.map((market, index) =>
-    <Card className="text-white cardClass">
-    <Card.Img className="cardImg" src={market.image} alt="an image of a market" />
-    <Card.ImgOverlay>
-      <Card.Title>{market.day}s at {market.location}</Card.Title>
-      <Card.Text>
-        <p>{market.hours} at booth {market.booth}</p>
-      </Card.Text>
-    </Card.ImgOverlay>
-    </Card>
-  )};
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100 carouselImg"
+          src={market.image}
+          alt="an image of a market"
+        />
+        <Carousel.Caption>
+          <h3>{market.day}s at {market.location}</h3>
+          <p>{market.hours} at booth {market.booth}</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    )};
+
+    </Carousel>
     </div>
     </>
-    );
+  );
 }
-
-export default MarketSchedule;
+export default MarketScheduleHome;

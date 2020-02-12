@@ -1,10 +1,3 @@
-#bodyDiv {
-  font-family: 'Oswald', sans-serif;
-  background: rgb(55,119,78);
-  background: linear-gradient(270deg, rgba(55,119,78,1) 0%, rgba(141,147,128,1) 25%, rgba(198,113,85,1) 69%);
-  height:100vh;
-}
-
 .App {
   text-align: center;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import MarketSchedule from './MarketSchedule';
+import MarketScheduleHome from './MarketScheduleHome';
 import AvailableProducts from './AvailableProducts'
 
 function Home(){
@@ -13,7 +13,7 @@ function Home(){
           <AvailableProducts/>
         </Col>
         <Col md={8}>
-          <MarketSchedule/>
+          <MarketScheduleHome/>
         </Col>
       </Row>
     </Container>

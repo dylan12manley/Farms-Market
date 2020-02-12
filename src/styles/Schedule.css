@@ -1,0 +1,29 @@
+#scheduleBody {
+  text-shadow: 1px 1px 2px black, 0 0 0.5em grey, 0 0 0.2em darkgrey;
+  padding-top: 8px;
+}
+.card-title {
+  font-size: 30px;
+}
+.card-text {
+  font-size: 20px;
+}
+.marketHeader {
+  text-align: center;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 25vw;
+  margin: 0 auto;
+  justify-content: center;
+}
+.cardClass {
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #1D3F29;
+  margin: auto;
+  width: 50%;
+}
+.cardImg {
+}
