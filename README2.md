@@ -1,3 +1,5 @@
+npm install
+
 npm init
 
 touch .gitignore (file)
