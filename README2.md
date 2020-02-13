@@ -1,3 +1,5 @@
+##This is for creating a REACT App old school way
+
 npm install
 
 npm init
@@ -32,3 +34,12 @@ npm install react-router-dom@4.0.0 --save
 npm install url-loader@0.6.2 --save-dev
 
 npm install file-loader@1.1.6 --save-dev
+
+add this to Webpack config file
+test: /\.(png|gif|jp(e*)g|svg)$/,
+      use: {
+        loader: 'url-loader',
+        options: {
+          limit: 8000,
+          name: 'images/[hash]-[name].[ext]'
+        }
