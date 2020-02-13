@@ -45,5 +45,8 @@
   "bugs": {
     "url": "https://github.com/dylan12manley/Farms-Market/issues"
   },
-  "homepage": "https://github.com/dylan12manley/Farms-Market#readme"
+  "homepage": "https://github.com/dylan12manley/Farms-Market#readme",
+  "devDependencies": {
+    "url-loader": "^0.6.2"
+  }
 }
