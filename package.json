@@ -47,6 +47,7 @@
   },
   "homepage": "https://github.com/dylan12manley/Farms-Market#readme",
   "devDependencies": {
+    "file-loader": "^1.1.6",
     "url-loader": "^0.6.2"
   }
 }
