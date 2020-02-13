@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import { Row, Col, Container } from 'react-bootstrap';
 import logo from './logo.svg';
+import Error404 from './components/Error404';
 import './styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MarketSchedule from './components/MarketSchedule';
@@ -18,6 +19,7 @@ function App() {
         <Route exact path='/' component={Home} />
         <Route path='/seasonal' component={AvailableProducts} />
         <Route path='/schedule' component={MarketSchedule} />
+        <Route component={Error404} />
       </Switch>
     </div>
   );
